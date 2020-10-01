@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="infectionStatusData"
+            type="de.tudarmstadt.iptk.foxtrot.vivacoronia.infectionStatus.InfectionStatusViewModel" />
+
+    </data>
+
+    <ScrollView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        tools:context=".infectionStatus.InfectionStatusBaseFragment">
+
+        <de.tudarmstadt.iptk.foxtrot.vivacoronia.infectionStatus.InfectionStateLinearLayout
+            android:id="@+id/essential_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_infection_status_data"
+                android:id="@+id/infection_status"
+                app:label="@{@string/infection_status}"
+                app:value="@{infectionStatusData.newStatus}"
+                app:hideSeparator="@{true}" />
+
+            <include layout="@layout/item_infection_status_data"
+                android:id="@+id/infection_date_approx"
+                app:label="@{@string/infection_date_approx}"
+                app:value="@{infectionStatusData.occuredDateEstimationString}" />
+
+            <include layout="@layout/item_infection_status_data"
+                android:id="@+id/test_date"
+                app:label="@{@string/test_date}"
+                app:value="@{infectionStatusData.dateOfTestString}" />
+
+            <LinearLayout
+                android:id="@+id/additional_information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:orientation="vertical" />
+        </de.tudarmstadt.iptk.foxtrot.vivacoronia.infectionStatus.InfectionStateLinearLayout>
+    </ScrollView>
+</layout>
+

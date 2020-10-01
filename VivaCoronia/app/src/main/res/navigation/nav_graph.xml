@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/locationHistoryFragment">
+
+
+    <fragment
+        android:id="@+id/locationHistoryFragment"
+        android:name="de.tudarmstadt.iptk.foxtrot.vivacoronia.locationDrawing.LocationHistoryFragment"
+        android:label="Location History"
+        tools:layout="@layout/fragment_location_history" />
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="de.tudarmstadt.iptk.foxtrot.vivacoronia.achievements.AchievementsFragment"
+        android:label="Achievements"
+        tools:layout="@layout/fragment_achievements" />
+    <fragment
+        android:id="@+id/tradingFragmentNav"
+        android:name="de.tudarmstadt.iptk.foxtrot.vivacoronia.trading.TradingFragmentNav"
+        android:label="Trading"
+        tools:layout="@layout/fragment_trading_nav">
+        <argument
+            android:name="product_query"
+            app:argType="de.tudarmstadt.iptk.foxtrot.vivacoronia.trading.models.ProductSearchQuery" />
+    </fragment>
+    <fragment
+        android:id="@+id/infectionStatusFragment"
+        android:name="de.tudarmstadt.iptk.foxtrot.vivacoronia.infectionStatus.InfectionStatusFragment"
+        android:label="Infection Status"
+        tools:layout="@layout/fragment_infection_status" />
+    <fragment
+        android:id="@+id/spreadMapFragment"
+        android:name="de.tudarmstadt.iptk.foxtrot.vivacoronia.spreadMap.SpreadMapFragment"
+        android:label="Spread Map"
+        tools:layout="@layout/fragment_spread_map" />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="de.tudarmstadt.iptk.foxtrot.vivacoronia.quiz.QuizOverviewFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz_overview"/>
+    <fragment
+        android:id="@+id/statusCheckFragment"
+        android:name="de.tudarmstadt.iptk.foxtrot.vivacoronia.authentication.StatusCheckFragment"
+        android:label="Check Status"
+        tools:layout="@layout/fragment_status"
+        />
+</navigation>

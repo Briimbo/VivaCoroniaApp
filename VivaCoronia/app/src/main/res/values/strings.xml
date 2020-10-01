@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">Viva Coronia</string>
+
+    <!-- main activity -->
+    <string name="main_activity_toast_permission_rationale">If location access is denied, the app can not warn for infections.</string>
+    <string name="main_activity_toast_location_permission_denied">Location access permission denied! Please enable it in the app settings and restart the app to get warnings about infections.</string>
+
+    <!-- location tracking service -->
+    <string name="location_service_channel_name">Location Tracking Channel</string>
+    <string name="location_service_channel_description">Shows the user that tracking is active</string>
+    <string name="location_service_channel_title">Corona Tracking or Notifications active</string>
+
+    <string name="location_service_fail_after_boot_message">Please open the app and enable location access.</string>
+
+    <!-- location upload service -->
+    <string name="toast_no_internet_permissions">Permission to access the Internet not granted</string>
+
+    <!-- manifest -->
+    <string name="location_service_description_manifest">Allows to track your location and to warn you of possible infections.</string>
+
+    <!-- trading -->
+    <string name="offerDistance">%s km</string>
+    <string name="searchRadius">Radius: %s km</string>
+
+    <!-- achievements -->
+    <string name="infectionScore">Infection Score</string>
+    <string name="infectionScoreDefault">0.0/1</string>
+    <string name="achievements">Achievements</string>
+    <string name="zombie">Zombie</string>
+    <string name="superspreader">Superspreader</string>
+    <string name="hamsterbuyer">Hamsterbuyer</string>
+    <string name="moneyboy">Moneyboy</string>
+    <string name="foreveralone">Forever alone</string>
+    <string name="quizmaster">Quizmaster</string>
+
+    <string name="aloneInfo">This Achievement is unlocked by being an amazing person and avoiding contacts with infected people!</string>
+    <string name="spreaderInfo">An achievement that you should hide from the government: Infect other people and be a (not so) Superspreader!</string>
+    <string name="quizInfo">Quizmaster proves to your friends that you are extraordinarily smart by winning a lot of rounds of our amazing Quiz game! </string>
+    <string name="hamsterInfo">A real Hamsterbuyer buys a lot of items of the same kind, show your amazing buying skills by unlocking gold! </string>
+    <string name="zombieInfo">Being infected and suddenly thinking you need to walk long distances? Yep that\'s a real Zombie!</string>
+    <string name="moneyInfo">Be a real Moneyboy and sell all kinds of goods in our amazing Trading section! Only you\'ll have the swag.</string>
+    <string name="infectionScoreInfo">Infection Score shows you how much contact you had with infected people. If your score is near 100 we really suggest testing for corona. If near 0, everything probably is fine!</string>
+
+
+    <!-- infection status -->
+    <string name="update_infection_button">Update Infection Status</string>
+    <string name="update_infection_label">Update Infection Status</string>
+    <string name="infection_status">Infection Status:</string>
+    <string name="unknown">Unknown</string>
+    <string name="infection_date_approx">Approximately at:</string>
+    <string name="test_date">Approved at:</string>
+    <string name="upload_infection_status_button">Update Status</string>
+    <string name="update_successful">Update successful</string>
+    <string name="update_failed">Update failed</string>
+    <string name="server_connection_failed">Failed to connect to server</string>
+    <string name="invalid_qr_code">Invalid QR-Code</string>
+
+    <!-- infected notification -->
+    <string name="infected_notification_channel_name">Infected Notification Channel</string>
+    <string name="infected_notification_channel_description">This channel warns you of possible infections.</string>
+    <string name="infected_notification_channel_title">You may be infected.</string>
+    <string name="infected_notification_channel_text">You had contact with a corona infected person. Please visit a corona test center and provide the test result in the app.</string>
+
+    <!-- product notification -->
+    <string name="product_notification_channel_name">Product Notification Channel</string>
+    <string name="product_notification_channel_description">This channel informs you if your needs match with other peoples offers.</string>
+    <string name="product_notification_channel_title">Offer found for</string>
+    <string name="product_notification_channel_text">Click to view products</string>
+
+    <!-- achievement notification -->
+    <string name="achievement_notification_channel_name">Achievement Notification Channel</string>
+    <string name="achievement_notification_channel_description">This channel informs you about new unlocked achievements.</string>
+    <string name="achievement_notification_channel_title">New Achievement.</string>
+
+    <!-- bottom navigation menu -->
+    <string name="menu_item_location_history">History</string>
+    <string name="menu_item_infection_update">Infection Status</string>
+    <string name="menu_item_product_offers">Product Offers</string>
+    <string name="menu_item_product_needs">Product Needs</string>
+    <string name="menu_item_trading">Trading</string>
+    <string name="menu_item_achievements">Achievements</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="sign_out">Sign out</string>
+    <string name="sign_out_warn">Warning</string>
+    <string name="sign_out_conf">Do you really want to sign out?\nThis will delete all your info on this device and close the app!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="expand_arrow">expand</string>
+    <string name="clear">clear</string>
+    <string name="amount">Amount</string>
+    <string name="price">Price (each)</string>
+    <string name="details">Details</string>
+    <string name="product">Product</string>
+    <string name="edit">edit</string>
+    <string name="category">Category</string>
+    <string name="add_offer">Add Offer</string>
+    <string name="add_need">Add Need</string>
+    <string name="save">Save</string>
+    <string name="generalInfo">Info</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="call">Call</string>
+
+    <string name="select_date_range">Select date range</string>
+    <string name="reset_date_range">Reset date range</string>
+    <string name="edit_offer">Edit Offer</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_delete_message_offer">Do you really want to delete this offer?</string>
+    <string name="confirm_delete_message_need">Do you really want to delete this need?</string>
+    <string name="delete_offer_title">Delete offer</string>
+    <string name="delete_need_title">Delete need</string>
+    <string name="input_error">Something went wrong. Please check your input and try again.</string>
+    <string name="unknown_error">"Oops, something went wrong. Please check your input and internet connection."</string>
+    <string name="EUR">€</string>
+    <string name="yes_offer_sold">Yes, I sold it</string>
+    <string name="yes_need_fulfilled">Yes, I got it</string>
+    <string name="title_activity_location_picker">Pick a Location</string>
+    <string name="use_selection">Use selection</string>
+    <string name="product_search_view_hint">Enter Product Name</string>
+    <string name="view_on_map">View on map</string>
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="min_amount">Minimum Amount</string>
+    <string name="needs_hint">Really badly looking for something?\nAdd a need and get a notification as soon as someone offers it!</string>
+    <string name="search_hint">Looking for something?\n Search for products or apply filters on your search!</string>
+    <string name="offers_hint">Have something someone else might need in these times?\nPlace an offer to help someone out!</string>
+
+
+    <string name="filter_radius_distance_text">\u0020%dm\u0020</string>
+    <string name="distance">Distance</string>
+
+    <string name="retry">Retry connection</string>
+    <string name="search">Search</string>
+    <string name="my_offers">My Offers</string>
+    <string name="my_needs">My Needs</string>
+    <string name="loading_categories">Testing your internet connection\n and loading some things ....</string>
+    <string name="loading_categories_failed">Internet connection failed. Please ensure you have a working internet connection and try again</string>
+    <string name="done">Done</string>
+    <string name="sort_by">Sort by:</string>
+    <string name="spreadmap">Spreadmap</string>
+    <string name="filter">Filter</string>
+
+    <!-- Register process -->
+    <string name="register">Welcome!</string>
+    <string name="register_btn_info">Register</string>
+    <string name="tag_reg">Join our big corona community\n to save the world!</string>
+    <string name="password">Password</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="succRegister">"You successfully registered to save the world from corona!"</string>
+    <string name="loginReg">"Login"</string>
+    <string name="register_login_hint">"Your UserID"</string>
+    <string name="checkbox_info">"Login on existing account"</string>
+
+    <!-- Register Email-Sending Process -->
+    <string name="EmailTitle">"Send UserID to E-Mail"</string>
+    <string name="EmailInfo">"You can send your UserID to yourself, if you want to login to other devices"</string>
+    <string name="EmailHint">"Your E-Mail to send to"</string>
+    <string name="EmailText">"Your User ID is: "</string>
+    <string name="Email_Subject">"Your UserID for VivaCoronia"</string>
+    <string name="emailFailInfo">"Couldn't send UserID to your E-Mail"</string>
+    <string name="emailNotSendInfo">"If you still want your UserID, you can view it in the \"Status Check\" menu item"</string>
+
+    <!-- Login process -->
+    <string name="login_info">"Login to keep tracking</string>
+    <string name="login_pw">"Enter your password"</string>
+    <string name="authBtn">"Login"</string>
+    <string name="succLogin">"Successful login"</string>
+
+    <!-- Admin Login -->
+    <string name="status_info">"Current Status"</string>
+    <string name="current_status">"Feature permissions: User"</string>
+    <string name="admin_button">"Reload status"</string>
+    <string name="check_status">Check Status</string>
+    <string name="userID_info">Show UserID</string>
+    <string name="feature_permissions_user">Feature permissions: User</string>
+    <string name="feature_permission_admin">Feature permissions: Admin</string>
+    <string name="admin_login_prompt">Login to use admin features</string>
+    <string name="renew_admin_login_prompt">Login to renew admin access</string>
+    <string name="permissionUpdate">"Possible Permission Update"</string>
+    <string name="permissionUpdateAlert">"You can login again to use admin features, do you want to proceed?"</string>
+    <string name="remindPermissionUpdate">"To use admin features, reload status again and login afterwards"</string>
+    <string name="samePermission">"Your permissions didn't change"</string>
+    <string name="adminRevoked">"You don't have the permission to use admin features anymore"</string>
+
+    <!-- Error Showing -->
+    <string name="noInternet">"Couldn't connect, check your connection"</string>
+    <string name="wrongPassword">"Password was wrong, try again"</string>
+    <string name="wrongPwOrID">"Password or UserID was wrong, try again"</string>
+    <string name="serverError">"Something went wrong with the server, oops"</string>
+    <string name="firewallError">"Your network doesn't allow connection to the server"</string>
+    <string name="forbiddenError">"You're not admin anymore, please reload your status"</string>
+    <string name="forbiddenFragment">"You don't have permission to use this feature"</string>
+    <string name="load_supermarkets">loadSupermarkets</string>
+    <string name="supermarkets">Supermarkets</string>
+    <string name="supermarket">Supermarket</string>
+    <string name="location">Location</string>
+    <string name="inventory">Inventory:</string>
+    <string name="selected_supermarket">Selected Supermarket</string>
+    <string name="edit_supermarket_inventory">editSupermarketInventory</string>
+    <string name="availability_level">Availability</string>
+    <string name="title_activity_edit_inventory">Set an inventory item</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="add_inventory_item">Add Item</string>
+    <string name="edit_inventory_item">EditInventoryItem</string>
+    <string name="product_name">Product Name</string>
+    <string name="add_item">Add Item</string>
+    <string name="supermarketLongPressInstruction">Please select a supermarket first by long pressing on the map</string>
+    <string name="itemForSupermarket">Item for %s</string>
+    <string name="supermarket_offer">Supermarket Offer</string>
+    <string name="go_to">go to</string>
+
+    <!-- Quiz -->
+    <string name="against_player">Against %s</string>
+    <string name="opponent_distance">km away</string>
+    <string name="quiz">Quiz</string>
+    <string name="correct">Correct: %d</string>
+    <string name="opponent">Opponent</string>
+    <string name="you">You</string>
+    <string name="play">Play</string>
+    <string name="quiz_welcome">Welcome to the quiz section!\nBattle it out against other users to brag about your Corona knowledge!</string>
+    <string name="start_new_game">Start a new game</string>
+    <string name="active_games">Active Games</string>
+    <string name="no_active_games">No current active games</string>
+    <string name="finished_games">Finished Games</string>
+    <string name="no_finished_games">No games finished yet</string>
+    <string name="game_status">game status</string>
+    <string name="your_turn">Your turn</string>
+    <string name="opponents_turn">%s\'s turn</string>
+    <string name="question_result">result of question</string>
+    <string name="go_to_game">go to game</string>
+    <string name="quiz_notification_channel_title">Corona Quiz</string>
+    <string name="quiz_notification_channel_name">Corona Quiz Channel</string>
+    <string name="quiz_notification_channel_description">Sends notifications if something happened in a quiz</string>
+    <string name="loading_please_wait">Loading... Please wait ...</string>
+</resources>

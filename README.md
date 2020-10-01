@@ -1,2 +1,2 @@
-# VivaCoronia
-Corona Tracking App
+# Frontend
+
